@@ -1,0 +1,17 @@
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/UnityEngine.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/UnityEditor.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Mono.Cecil.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Unity.DataContract.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/obj/Debug/Assembly-CSharp.dll
+/Users/SR5/WebDev/Park-IntrotoGameDev-F16/Text Adventure/obj/Debug/Assembly-CSharp.dll.mdb
