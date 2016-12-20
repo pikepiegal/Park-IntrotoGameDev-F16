@@ -2,7 +2,8 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class player2 : MonoBehaviour {
+public class player2 : MonoBehaviour
+{
     Transform myTransform;
     public float moveSpeed;
     public float maxHealth;
@@ -11,14 +12,16 @@ public class player2 : MonoBehaviour {
     public bullet2 bullet;
     public AudioSource sfxSource;
 
-    void Start() {
+    void Start()
+    {
         myTransform = GetComponent<Transform>();
         currentHealth = maxHealth;
         main = this;
     }
 
     // Update is called once per frame
-	void Update() {
+    void Update()
+    {
         if (Input.GetKey(KeyCode.UpArrow))
         {
             Vector3 lookPoint = new Vector3(90, 0, 0);

@@ -23,35 +23,38 @@ public class car : MonoBehaviour {
 
 	}
 
-	void OnCollisionEnter(Collision col) {
-		
-		if (col.gameObject.tag == "Untagged" || col.gameObject.tag == "p2" || col.gameObject.tag == "Finish")
-		{
-			Destroy(gameObject);
-		}
-
+	void OnCollisionEnter(Collision col)
+	{
+		//take damage from bullet
 		if (col.gameObject.tag == "p1")
 		{
-			currentHealth -= col.gameObject.GetComponent<car>().damage;
+			currentHealth -= col.gameObject.GetComponent<bullet>().damage;
 		}
-
 		else if (col.gameObject.tag == "p2")
 		{
-			currentHealth -= col.gameObject.GetComponent<car>().damage;
+			currentHealth -= col.gameObject.GetComponent<bullet2>().damage;
 		}
-
+		//hitting a player
+		else if (col.gameObject.tag == "player1" || col.gameObject.tag == "player2")
+		{
+			currentHealth = 0;
+		}
 		if (currentHealth <= 0)
 		{
-			if (col.gameObject.tag == "p1")
+			if (col.gameObject.tag == "p1" || col.gameObject.tag == "player1")
 			{
 				system.main.funds1 -= value;
 			}
-			else if (col.gameObject.tag == "p2")
+			else if (col.gameObject.tag == "p2" || col.gameObject.tag == "player2")
 			{
 				system.main.funds2 -= value;
 			}
-			system.main.bu = true;
+			system.main.bu = true;//sound effect
 			Destroy(gameObject);
 		}
+			
 	}
+
 }
+
+	
